@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "signal-inputs-and-change-detection",
+            "prefix": "past",
             "style": "kebab-case"
           }
         ]

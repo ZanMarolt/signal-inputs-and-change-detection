@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'signal-inputs-and-change-detection',
+  displayName: 'past',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/signal-inputs-and-change-detection',
+  coverageDirectory: '../../coverage/apps/past',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
