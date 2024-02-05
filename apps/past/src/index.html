@@ -6,6 +6,34 @@
     <base href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+    <style>
+      h1 {
+        font-family: 'Nabla', system-ui;
+        font-palette: --one;
+        font-size: 5rem;
+      }
+
+      @font-palette-values --one {
+        font-family: 'Nabla';
+        base-palette: 3;
+      }
+
+
+      .container {
+        position: relative;
+        margin: 1rem;
+        padding: 1rem;
+        border: 1px solid red;
+      }
+
+      button {
+        border: 1px solid green;
+        color: green;
+      }
+    </style>
   </head>
   <body>
     <past-root />

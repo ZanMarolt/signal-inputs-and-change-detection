@@ -1,0 +1,10 @@
+<div class="container">
+    <shared-dirty-checks />
+    <p>Child component</p>
+    <p style="color: green">
+      {{ count$ | async }}
+    </p>
+    <button (click)="increment()">Increment signal</button>
+
+    <shared-deep-child />
+</div>
