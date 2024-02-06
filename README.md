@@ -12,6 +12,10 @@ To start the development server run either
 - `nx run present:serve`
 - `nx run future:serve`
 
+or
+
+- `nx run signal-inputs:serve`
+
 Then open your browser and navigate to http://localhost:4200/. Happy coding!
 
 
