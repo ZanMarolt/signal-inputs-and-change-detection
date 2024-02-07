@@ -9,6 +9,5 @@ import { RouterModule } from '@angular/router';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SignalInputComponent {
-  number = input(0, { alias: 'number' });
-  isEven = computed(() => this.number() % 2 === 0);
+  isEven = input.required<boolean, number>({ alias: 'number', transform: (val: number) => val % 2 === 0 });
 }
