@@ -3,20 +3,20 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "future",
-  "sourceRoot": "apps/future/src",
+  "sourceRoot": "apps/03-future/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/future",
-        "index": "apps/future/src/index.html",
-        "browser": "apps/future/src/main.ts",
+        "outputPath": "dist/apps/03-future",
+        "index": "apps/03-future/src/index.html",
+        "browser": "apps/03-future/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "apps/future/tsconfig.app.json",
-        "assets": ["apps/future/src/favicon.ico", "apps/future/src/assets"],
-        "styles": ["apps/future/src/styles.css"],
+        "tsConfig": "apps/03-future/tsconfig.app.json",
+        "assets": ["apps/03-future/src/favicon.ico", "apps/03-future/src/assets"],
+        "styles": ["apps/03-future/src/styles.css"],
         "scripts": []
       },
       "configurations": {

@@ -3,23 +3,23 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "past",
-  "sourceRoot": "apps/past/src",
+  "sourceRoot": "apps/01-past/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/past",
-        "index": "apps/past/src/index.html",
-        "browser": "apps/past/src/main.ts",
+        "outputPath": "dist/apps/01-past",
+        "index": "apps/01-past/src/index.html",
+        "browser": "apps/01-past/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "apps/past/tsconfig.app.json",
+        "tsConfig": "apps/01-past/tsconfig.app.json",
         "assets": [
-          "apps/past/src/favicon.ico",
-          "apps/past/src/assets"
+          "apps/01-past/src/favicon.ico",
+          "apps/01-past/src/assets"
         ],
-        "styles": ["apps/past/src/styles.css"],
+        "styles": ["apps/01-past/src/styles.css"],
         "scripts": []
       },
       "configurations": {

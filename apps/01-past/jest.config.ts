@@ -3,7 +3,7 @@ export default {
   displayName: 'past',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/past',
+  coverageDirectory: '../../coverage/apps/01-past',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

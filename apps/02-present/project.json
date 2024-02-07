@@ -3,20 +3,20 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "present",
-  "sourceRoot": "apps/present/src",
+  "sourceRoot": "apps/02-present/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/present",
-        "index": "apps/present/src/index.html",
-        "browser": "apps/present/src/main.ts",
+        "outputPath": "dist/apps/02-present",
+        "index": "apps/02-present/src/index.html",
+        "browser": "apps/02-present/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "apps/present/tsconfig.app.json",
-        "assets": ["apps/present/src/favicon.ico", "apps/present/src/assets"],
-        "styles": ["apps/present/src/styles.css"],
+        "tsConfig": "apps/02-present/tsconfig.app.json",
+        "assets": ["apps/02-present/src/favicon.ico", "apps/02-present/src/assets"],
+        "styles": ["apps/02-present/src/styles.css"],
         "scripts": []
       },
       "configurations": {
